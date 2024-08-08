@@ -2,20 +2,44 @@
   "name": "run-in-terminal",
   "displayName": "run-in-terminal",
   "description": "Run In Terminal",
+  "publisher": "Suman Banerjee",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.92.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suman-wolfram/run-in-terminal"
+  },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+     "onCommand:runInTerminal"
+  ],
+  "icon": "images/mathematica.png",
   "main": "./out/extension.js",
   "contributes": {
+    "languages": [
+      {
+        "id": "run-in-terminal",
+        "aliases": [
+          "terminal"
+        ],
+        "extensions": [
+          ".wl",
+          ".m",
+          ".wls",
+          ".wlt",
+          ".mt",
+          ".vsnb"
+        ]
+      }
+    ],
     "commands": [
       {
-        "command": "run-in-terminal.helloWorld",
-        "title": "Hello World"
+        "command": "run-in-terminal.runInTerminal",
+        "title": "Run In Terminal"
       }
     ]
   },
