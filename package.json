@@ -3,7 +3,7 @@
   "displayName": "run-in-terminal-trial",
   "description": "Run In Terminal",
   "publisher": "SumanBanerjee",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.92.0"
   },
