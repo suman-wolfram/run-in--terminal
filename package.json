@@ -1,9 +1,9 @@
 {
-  "name": "run-in-terminal",
-  "displayName": "run-in-terminal",
+  "name": "run-in-terminal-trial",
+  "displayName": "run-in-terminal-trial",
   "description": "Run In Terminal",
-  "publisher": "Suman Banerjee",
-  "version": "0.0.1",
+  "publisher": "SumanBanerjee",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.92.0"
   },
