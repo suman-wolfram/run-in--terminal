@@ -8,22 +8,6 @@ By default, the extension tries to find the most recent version of the Wolfram s
 
 LSP functionality runs in its own kernel, separate from evaluations done in notebooks or in the terminal window.
 
-## Supported features
-
-* Syntax Highlighting
-* Diagnostics and suggestions for fixes
-* Formatting files and selections
-* Semantic highlighting
-* Expand and shrink selection
-* Outline
-* Color swatches
-* Symbol references
-* Function definition and documentation on hover
-* Completion support
-* VSCode Notebook support
-* Running Wolfram Language code in Wolfram terminal
-* New menu items (Open in System Editor)
-
 ## Settings
 
 You can change many settings for custom kernel management and user experience.
@@ -86,6 +70,21 @@ Any valid Wolfram Language expression can be evaluated in this notebook.
 
 * All notebooks in a single VSCode instance use the same Wolfram kernel.
 * Each instance of VSCode uses a different Wolfram kernel.
+
+## Supported features
+
+* Syntax Highlighting
+* Diagnostics and suggestions for fixes
+* Formatting files and selections
+* Expand and shrink selection
+* Outline
+* Color swatches
+* Symbol references
+* Function definition and documentation on hover
+* Completion support
+* VSCode Notebook support
+* Running Wolfram Language code in Wolfram terminal
+* New menu items (Open in System Editor)
 
 
 
