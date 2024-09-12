@@ -1,9 +1,9 @@
 {
   "name": "run-in-terminal-trial",
-  "displayName": "run-in-terminal-trial",
-  "description": "Run In Terminal",
+  "displayName": "Wolfram Language",
+  "description": "Visual Studio Code extension for Wolfram Language",
   "publisher": "SumanBanerjee",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.92.0"
   },
@@ -17,7 +17,7 @@
   "activationEvents": [
      "onCommand:runInTerminal"
   ],
-  "icon": "images/mathematica.png",
+  "icon": "images/icon.png",
   "main": "./out/extension.js",
   "contributes": {
     "languages": [
